@@ -8,3 +8,6 @@ def get_current_datetime() -> str:
     """Return current datetime"""
     now = datetime.now()
     return now.strftime("%Y-%m-%d %H:%M:%S")
+
+
+app = mcp.app()
